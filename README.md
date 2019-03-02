@@ -11,7 +11,7 @@ Open your CMD(windows) or Terminal(Linux), and navigate  to `simple-cli`  direct
 
 #### Run
 
-
+* `php com` Call Simple cli
 * `php com --version` Display Simpl-cli version.
 * `php com --help` Provide Commands 
 * `php com --about` A brief Intel of simple-cli.
