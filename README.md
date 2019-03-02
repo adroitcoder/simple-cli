@@ -11,12 +11,12 @@ Open your CMD(windows) or Terminal(Linux), and navigate  to project  directory.
 
 #### Run
 
-Markup:
-*`php com --version` Display Simpl-cli version.
-*`php com --help` Provide Commands 
-*`php com --about` A brief Intel of simple-cli.
-*`php com --today` Display current  Date and Time.
-*`php com --quote` Generation Beautiful Quotes.
+
+* `php com --version` Display Simpl-cli version.
+* `php com --help` Provide Commands 
+* `php com --about` A brief Intel of simple-cli.
+* `php com --today` Display current  Date and Time.
+* `php com --quote` Generation Beautiful Quotes.
  
 
 
