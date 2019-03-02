@@ -2,6 +2,17 @@
 namespace cli;
 
 final class Command {
+  
+ private $quotes = [
+    "Don't let other people get in the way of what you really want.",
+    "Life is a collection  of moments. The idea is to have as many good once as you can",
+    "In any given moment  we have two options: to step forward  into growth or to step backwards to safety.",
+    "Only one thing came make a soule complete, and that thing is Love.",
+    "The World's is full of lonely people afraid to make the first move.",
+    "You don't have to bend till you break. You just have to get up."
+  ];
+  
+
   public function __construct(){
    
     $longopts = ["help", "version","quote", "today"];
@@ -19,7 +30,7 @@ final class Command {
     }
     
     if (isset($opts["quote"])) {
-      fprintf(STDERR, "Here is some help!\n");
+      fprintf(STDERR, "{$this->quotemaker()}\n");
       exit;
     }
     
@@ -36,7 +47,7 @@ final class Command {
   
   private function quotemaker()
   {
-  
+    return $this->quotes[rand(0,5)];
   
   }
 }
