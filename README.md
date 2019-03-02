@@ -1,13 +1,13 @@
 # simple-cli
 
-Simpl-cli a PHP Cli software  with view commands to guide newbies on how to design  a command line with PHP. 
+Simpl-cli is a PHP Cli software  with few commands to guide newbies on how to design  a command line with PHP. 
 
 ## Installation
 =>clone from repo using git `git clone https://github.com/adroitcoder/simple-cli`
 
 ## Commands
 
-Open your CMD(windows) or Terminal(Linux), and navigate  to project  directory.
+Open your CMD(windows) or Terminal(Linux), and navigate  to `simple-cli`  directory.
 
 #### Run
 
